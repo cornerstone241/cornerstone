@@ -36,6 +36,8 @@
   gap: var(--mt-gap, 1.5rem);
   position: relative;
   z-index: 1;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 .mainte-content *:not(:where(svg, svg *)) {
   margin: 0;
