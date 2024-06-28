@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Teko';
+    src: url('Teko-SemiBold.eot');
+    src: url('Teko-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Teko-SemiBold.woff2') format('woff2'),
+        url('Teko-SemiBold.woff') format('woff'),
+        url('Teko-SemiBold.ttf') format('truetype'),
+        url('Teko-SemiBold.svg#Teko-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+

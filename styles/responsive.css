@@ -1,0 +1,150 @@
+
+
+@media screen and (max-width: 1650px){
+    #content .cnBox { margin: -320px auto 0; }
+   
+}
+
+@media screen and (max-width: 1560px) {
+    #content .cnBox { margin: -290px auto 0; }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .bnLogo { top: 30px; }
+    .bnLogo img { max-width: 80%; }
+    #content .cnBox { margin: -290px auto 0; }
+}
+
+
+@media screen and (max-width: 1460px) {
+    .bnLogo img { max-width: 50%; }
+}
+
+
+@media screen and (max-width: 1245px) {
+    .cnBox p { margin: 10px auto; }
+    #content .cnBox { margin: -250px auto 0; }
+}
+
+
+@media screen and (max-width: 1200px){
+    #content .cnBox { margin: 0 auto; position: static; }
+    #content .cnBox p { color: #000; font-weight: 400;}
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+	body {min-width: 320px;}
+	.row { margin: 0 auto; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; padding-left: 10px; padding-right: 10px; }
+	.theme-default .nivo-controlNav {margin-top: -60px; margin-bottom: 0px;}
+    
+    .contactForm { padding: 20px; }
+    .formLabel input[type="text"], .formLabel textarea { width: 100%; display: block; margin: 10px auto; }
+
+    #footer .row { padding-left: 0; padding-right: 0; }
+    #footer .ftBot { padding-left: 10px; padding-right: 10px; }
+}
+
+
+@media screen and (max-width: 959px) {
+    .ftTop { background: #B8171F; }
+    .image-right { display: block; width: 100%; }
+    .textCon { max-width: 90% ;width: 100%; margin: 0 auto; padding: 20px 10px; float: none; }
+    #footer .inb { display: block; width: 100%; }
+    .footText { text-align: center; }
+    .image-right img { padding: 10px 0; }
+}
+
+@media screen and (max-width: 945px){
+    .bnLogo img { max-width: 60%; }
+  
+}
+
+@media screen and (max-width: 800px){
+    .hdEmail, .hdPhone { float: none; width: 100%; display: inline-block;  }
+    .bnLogo { top: 30px; }
+    #content .cnBox { margin: 10px auto; }
+    .cnBox h2 { font-size: 70px; }
+    .cnBox h5 { font-size: 30px }
+    .cnBot p { font-size: 18px; }
+    #content .cnBox p { font-size: 21px; }
+    .grid img { width: 90%; display: block; margin: 0 auto;}
+    h1 { font-size: 50px; }
+    .hdEmail, .hdPhone { flex-basis: 100%; text-align: center; }
+
+    /* Areas We Serve Drop Down */
+    .hdPhone > ul {
+        display: block;
+        width: 100%;
+        margin: 0;
+        border-left: 0;
+    }
+    .hdPhone > ul > li > ul {
+        position: relative;
+        width: 100%;
+        opacity: 1;
+        display: none;
+        transition: none;
+    }
+
+    .hdPhone > ul > li > a {
+        display: block;
+    }
+
+    .hdPhone > ul > li > a .toggle {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .textCon .topText {font-size: 55px;}
+}
+
+
+@media screen and (max-width: 600px){
+
+    .cnBox h2 { font-size: 45px; }
+    .cnBox h5 { font-size: 25px; }
+    #content .cnBox p { font-size: 15px; }
+    .cnBot p { font-size: 14px; }
+
+	.hdBotRight nav {display:block; height: auto; position: absolute; top: 0; width: 100%;}
+  	.hdBotRight nav ul { width: 100%; display: none; height: auto;border-bottom:5px solid #00488b;}
+  	.hdBotRight nav ul li { width: 100%;position: relative; background: rgba(255,255,255,0.9); margin: 0;}
+  	.hdBotRight nav ul li a {display: block;float:none;padding: 10px 0; color: #00488B}
+  	.hdBotRight nav a { text-align: left; width: 100%;	text-indent: 25px;}
+	.hdBotRight nav a#pull {display: block; color: #fff; background: rgba(0,28,55,0.9); height: 30px;padding: 10px 0;	width: 100%;position: relative;}
+	.hdBotRight nav a#pull:after {content:"";	background: url('../images/nav-icon.png') no-repeat;width: 30px;height: 30px;display: inline-block;
+		position: absolute;	right: 15px;top: 10px;	}
+}
+
+
+@media screen and (max-width: 550px){
+    .list li { font-size: 14px; }
+    .hdEmail, .hdPhone { font-size: 15px; }
+    .hdPhone a { font-size: 25px; }
+    .inner #content h1 { font-size: 30px; text-shadow: none; color: #C01022; }
+}
+
+@media screen and (max-width: 370px){
+    .cnBox h2 { font-size: 30px; }
+    .cnBox h5 { font-size: 15px; }
+    #content .cnBox p { font-size: 12px; }
+
+    .textCon span { font-size: 12px; }
+    .footText a { font-size: 25px; }
+}
+
+@media screen and (max-width: 355px){
+   .hdEmail, .hdPhone { font-size: 12px; }
+   .hdPhone a { font-size: 18px; } 
+   .contactForm h6 { font-size: 40px; }
+   .textCon .topText { font-size: 30px; }
+   .list li { font-size: 12px; }
+   .textCon span { font-size: 10px; }
+    
+}
